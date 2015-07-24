@@ -1,2 +1,2 @@
 // @tag full-page
-// @require C:\wamp\www\dashboard\MyApp\app.js
+// @require C:\wamp\www\electic\MyApp\app.js

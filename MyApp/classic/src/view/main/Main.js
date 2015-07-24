@@ -12,10 +12,13 @@ Ext.define('MyApp.view.main.Main', {
     requires: [
         'Ext.plugin.Viewport',
         'Ext.window.MessageBox',
-
+        'Ext.Panel',
         'MyApp.view.main.MainController',
         'MyApp.view.main.MainModel',
-        'MyApp.view.main.List'
+        'MyApp.view.main.List',
+        "MyApp.view.login.LoginController",
+        "MyApp.view.login.LoginModel",
+        "MyApp.view.login.Login"
     ],
 
     controller: 'main',
@@ -80,7 +83,7 @@ Ext.define('MyApp.view.main.Main', {
         iconCls: 'fa-home',
         // The following grid shares a store with the classic version's grid as well!
         items: [{
-            xtype: 'mainlist'
+            xtype: 'login'
         }]
     }, {
         title: 'Users',

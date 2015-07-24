@@ -1,5 +1,5 @@
 $app-name:  dynamic( 'MyApp' );
-$image-search-path: 'C:/wamp/www/dashboard/MyApp/build/production/MyApp/modern/resources';
+$image-search-path: 'C:/wamp/www/electic/MyApp/build/production/MyApp/modern/resources';
 $theme-name:  dynamic( 'theme-neptune' );
 $include-ext-abstractcomponent: dynamic(false);;
 $include-ext-abstractmanager: dynamic(false);;
@@ -535,6 +535,9 @@ $include-ext-viewport-wp: dynamic(true);;
 $include-ext-viewport-windowsphone: dynamic(true);;
 $include-myapp-application: dynamic(true);;
 $include-myapp-store-personnel: dynamic(true);;
+$include-myapp-view-login-login: dynamic(false);;
+$include-myapp-view-login-logincontroller: dynamic(false);;
+$include-myapp-view-login-loginmodel: dynamic(false);;
 $include-myapp-view-main-list: dynamic(true);;
 $include-myapp-view-main-main: dynamic(true);;
 $include-myapp-view-main-maincontroller: dynamic(true);;
