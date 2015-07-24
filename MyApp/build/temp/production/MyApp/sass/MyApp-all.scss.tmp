@@ -542,6 +542,7 @@ $include-myapp-view-main-list: dynamic(true);;
 $include-myapp-view-main-main: dynamic(true);;
 $include-myapp-view-main-maincontroller: dynamic(true);;
 $include-myapp-view-main-mainmodel: dynamic(true);;
+$include-myapp-view-main-gridhome: dynamic(false);;
 
 
 /* ======================== ETC ======================== */
