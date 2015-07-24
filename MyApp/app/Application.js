@@ -3,6 +3,12 @@
  * calls Ext.application(). This is the ideal place to handle application launch and
  * initialization details.
  */
+/*Ext.loader.setConfig({
+  enabled: true,
+  paths: {
+      'MyApp': (typeof(baseUrl)!='undefined')?baseUrl+'classic/app':'app'
+  }
+});*/
 Ext.define('MyApp.Application', {
     extend: 'Ext.app.Application',
     
